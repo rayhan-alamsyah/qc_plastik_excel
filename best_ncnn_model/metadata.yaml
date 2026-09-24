@@ -1,0 +1,24 @@
+description: Ultralytics YOLO11n model trained on Plastic-Defect-4/data.yaml
+author: Ultralytics
+date: '2026-09-04T11:10:05.651841+07:00'
+version: 8.4.138
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+head: Detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: burn mark
+  1: crack
+  2: flash
+  3: good
+  4: short shot
+args:
+  batch: 1
+  quantize: null
+channels: 3
+end2end: false
